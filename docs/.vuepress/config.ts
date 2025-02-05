@@ -5,11 +5,11 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'zh-CN',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'artitsy',
+  description: '这是artitsy的文档',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/img/artitsy.png',
 
     navbar: ['/', '/get-started'],
   }),
